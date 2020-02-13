@@ -59,13 +59,14 @@ dt {
 
 #homehero {
     height: 300px;
-    background-image: "coast.jpg";
+    background-image: url(coast.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #yurthero {
     height: 300px;
+    background-image: url(yurt.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     
@@ -73,8 +74,9 @@ dt {
 
 #trailhero {
     height: 300px;
+    background-image: url(trail.jpg);
     background-size: 100% 100%;
-    
+    background-repeat: no-repeat;
 }
 
 
