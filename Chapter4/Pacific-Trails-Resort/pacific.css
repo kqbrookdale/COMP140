@@ -1,37 +1,87 @@
 
  body {
-     background-color:#FFFFFF;
+     background-color:#90C7E3;
      color: #666666;
+     background-image: linear-gradient(to bottom,#666666,#90C7E3);
      font-family: Verdana, Arial, sans-serif;
+     background-repeat: no-repeat;
 }
 
-header {background-color: #000033;
-color: #FFFFFF;
-font-family: Georgia, serif;}
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+}
 
-h1 {background-color: #000033;
-color: #FFFFFF;
-font-family: Georgia, serif;
-line-height: 2em;}
+h1 {
+    background-color: #000033;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    line-height: 2em;
+}
 
-nav {background-color:#90C7E3;
-    font-style:  bold; }
+nav {
+    background-color:#90C7E3;
+    font-style:  bold; 
+}
 
 
-h2 { color: #3399CC;
-font-family: Georgia, Serif;}
+h2 {
+    color: #3399CC;
+    font-family: Georgia, Serif;
+    text-shadow: offset 1px #CCCCCC;
+}
 
-dt {color: #000033;
-    font-style:bold;}
+main {
+    padding-top: 1px ;
+    padding-right:  20px;
+    padding-bottom:  20px;
+    padding-left:  20px;
+    display: block;
+}
+dt {
+    color: #000033;
+    font-style:bold;
+}
 
-/* resort {color: #000033;
-font-size:1.2em;}
-*/
+#resort {
+    color: #000033;
+    font-size:1.2em;
+}
+
+#wrapper {
+    background-color: #FFFFFF;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048;
+    box-shadow: offset 3px #333333;
+}
+
+#homehero {
+    height: 300px;
+    background-image: "coast.jpg";
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#yurthero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    }
+
+#trailhero {
+    height: 300px;
+    background-size: 100% 100%;
+    
+}
 
 
 footer {font-size: small;
     font-style:italic;
     text-align: center;
+    padding: 2em;
 }
 
 
