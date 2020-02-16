@@ -1,0 +1,46 @@
+
+
+ body {
+     background-color:#F5F5F5;
+     color: #32F860;
+     font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #9BC1C2;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h1 {background-color: #000033;
+color: #FFFFFF;
+font-family: Georgia, serif;
+line-height: 200%;}
+
+nav {
+    background-color:#90C7E3;
+    text-align: center;
+    font-style:  bold; }
+
+
+h2 { color: #3399CC;
+font-family: Georgia, Serif;}
+
+dt {color: #000033;
+    font-style:bold;}
+
+ #studio {
+     color: #000033;
+     font-style: italic;
+     font-size:1.2em;}
+*/
+
+
+footer {
+    background-color: #9BC1C2;
+    font-size: .60em;
+    font-style:italic;
+    text-align: center;
+}
+
+
