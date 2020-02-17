@@ -1,7 +1,7 @@
 
 
  body {
-     background-color:#F5F5F5;
+     background-color:#3F2860;
      color: #3F2860;
      font-family: Verdana, Arial, sans-serif;
 }
@@ -9,23 +9,34 @@
 header {
     background-color: #9BC1C2;
     color: #FFFFFF;
-    text-align: center;
+    background-image: url(lilyheader.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 h1 {background-color: #000033;
 color: #FFFFFF;
 font-family: Georgia, serif;
-line-height: 200%;}
+padding-top: 50px;
+padding-left: 2em;
+}
 
 nav {
 
     background-color:#90C7E3;
     text-align: center;
     font-style:  bold; 
+    padding: 1em;
 }
 
 nav a {
     text-decoration: none;
+}
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: block;
 }
 h2 { color: #3399CC;
 font-family: Georgia, Serif;}
@@ -42,15 +53,21 @@ dt {color: #000033;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    
+    background-color: #F5F5F5;
+    min-width: 1000px;
+    max-width: 1280px;
 }
 
+#hero {
+    text-align: center;
+}
 
 footer {
     background-color: #9BC1C2;
     font-size: .60em;
     font-style:italic;
     text-align: center;
+    padding: 1em;
 }
 
 
