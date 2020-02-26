@@ -1,0 +1,128 @@
+
+
+* { box-sizing: border-box;
+   
+}
+
+ body {
+     background-color:#90C7E3;
+     color: #666666;
+    /* background-image: linear-gradient(to bottom,#666666,#90C7E3);*/
+     background-image: url(background.jpg);
+     font-family: Verdana, Arial, sans-serif;
+     background-repeat: no-repeat;
+}
+
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    background-image: url(sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #000033;
+    padding-left: 20px;
+    height: 72px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    line-height: 2em;
+}
+
+nav {
+    
+    font-style:  bold; 
+    float:left;
+    width: 160px;
+    padding: 20px 5px 0 20px;
+}
+
+nav ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link { color: #000033;}
+nav a:visited {color: #344873;}
+nav a:hover { color: #FFFFFF}
+
+h2 {
+    color: #3399CC;
+    font-family: Georgia, Serif;
+    text-shadow: offset 1px #CCCCCC;
+}
+
+h3 {
+    color: #000033;
+}
+
+main {
+    background-color: #FFFFFF;
+    padding-top: 1px ;
+    padding-right:  20px;
+    padding-bottom:  1px;
+    padding-left:  20px;
+    display: block;
+    margin-left: 170px;
+}
+dt {
+    color: #000033;
+    font-style:bold;
+}
+
+#resort {
+    color: #000033;
+    font-size:1.2em;
+}
+
+#wrapper {
+    background-color: #90c7E3;
+    width: 80%;
+    min-width: 700px;
+    max-width: 1024px;
+    box-shadow: offset 3px #333333;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url(coast.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px; 
+}
+
+#yurthero {
+    height: 300px;
+    background-image: url(yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+    
+    }
+
+#trailhero {
+    height: 300px;
+    background-image: url(trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+}
+
+
+footer {font-size: small;
+    font-style:italic;
+    text-align: center;
+    padding: 10px;
+    background-color: #FFFFFF;
+    margin-left: 170px;
+}
+
+header, nav, main, footer {display: block;}
+
