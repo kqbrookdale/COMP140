@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+ body {
+     background-color:#3F2860;
+     color: #3F2860;
+     font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #9BC1C2;
+    color: #FFFFFF;
+    background-image: url(lilyheader.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h1 {background-color: #000033;
+color: #FFFFFF;
+font-family: Georgia, serif;
+padding-top: 50px;
+padding-left: 2em;
+}
+
+nav {
+
+    float: left;
+    width: 160px;
+    font-style:  bold; 
+    padding: 1em;
+}
+
+nav button {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-style: bold;
+    
+    border-style: outset 3px #CCCCCC;
+    
+    border-left: 1em;
+    border-right: 1em;
+    
+    
+}
+
+nav button:link {color: #3F2860;}
+nav button:visited { color: #497777;}
+nav button:hover { color: #A26100; border: 3px inset #333333;}
+
+nav ul {
+    list-style-type: none;
+    
+}
+main {
+    margin-left: 170px;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: block;
+}
+.floatleft {
+    float: left;
+    margin-right: 4em;
+    
+}
+h2 { color: #3399CC;
+font-family: Georgia, Serif;}
+
+dt {color: #000033;
+    font-style:bold;}
+
+ #studio {
+     color: #000033;
+     font-style: italic;
+     font-size:1.2em;}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #F5F5F5;
+    min-width: 1200px;
+    max-width: 1480px;
+}
+
+.clear {
+    clear: both;
+   }
+
+footer {
+    background-color: #9BC1C2;
+    font-size: .60em;
+    font-style:italic;
+    text-align: center;
+    padding: 1em;
+}
+header, nav, main, footer {display: block;}
+
