@@ -103,6 +103,24 @@ tr:nth-of-type(even) {
 .text {
     text-align: left;
 }
+
+label {
+    float: left;
+    display: block;
+    width: 8em;
+    padding-right: 1em;
+    }
+input {
+    display: block;
+    margin-bottom: 1em;
+    }
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+#mySubmit {
+    margin-left: 10em;
+}
 #resort {
     color: #000033;
     font-size:1.2em;
