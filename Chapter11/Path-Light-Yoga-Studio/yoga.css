@@ -135,6 +135,10 @@ textarea {
     display: block;
     margin-bottom: 2em;
 }
+audio {
+    display: block;
+    margin: 1em;
+}
 #mySubmit {
     margin-left: 12em;
 }
